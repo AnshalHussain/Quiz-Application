@@ -1,0 +1,108 @@
+/* General body styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: url('/626f4775-3aec-427d-b099-016eaaa82613.jpg') no-repeat center/cover;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Quiz container */
+.quiz-container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 400px;
+}
+
+/* Title */
+.title {
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Timer box */
+.timer-box {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 6px;
+  margin-bottom: 25px;
+}
+
+#quizTimer {
+  font-size: 22px;
+  color: #fff;
+  margin: 0;
+}
+
+/* Question box */
+.question-box p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Options box */
+.options-box {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+/* Individual option row */
+.option-row {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Radio input styling */
+input[type="radio"] {
+  accent-color: #ffd700;
+  transform: scale(1.2);
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+/* Label for options */
+.options-box label {
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Next button styling */
+button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffb347;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Disabled button */
+button:disabled {
+  background-color: #777;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Hover effect */
+button:hover:not(:disabled) {
+  background-color: #ffd700;
+}
+
+/* SweetAlert popup custom styling */
+.swal-popup-custom {
+  font-family: "Poppins", sans-serif;
+}
